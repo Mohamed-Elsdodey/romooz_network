@@ -1,0 +1,336 @@
+@extends('web.layouts.layout')
+
+@section('content')
+    <div class="page-banner-area">
+        <div class="container">
+            <div class="page-banner-content">
+                <h2> خدمات التصميم </h2>
+                <ul>
+                    <li>
+                        <a href="{{ url('/') }}">الرئيسية</a>
+                    </li>
+                    <li>تفاصيل الخدمة </li>
+                </ul>
+            </div>
+        </div>
+        <div class="page-banner-shape-1" data-speed="0.08" data-revert="true">
+            <img src="{{asset('romoz_design')}}/assets/images/page-banner/shape-1.png" alt="image">
+        </div>
+        <div class="page-banner-shape-2" data-speed="0.08" data-revert="true">
+            <img src="{{asset('romoz_design')}}/assets/images/page-banner/shape-2.png" alt="image">
+        </div>
+        <div class="page-banner-shape-3" data-speed="0.08" data-revert="true">
+            <img src="{{asset('romoz_design')}}/assets/images/page-banner/shape-3.png" alt="image">
+        </div>
+        <div class="page-banner-shape-4" data-speed="0.08" data-revert="true">
+            <img src="{{asset('romoz_design')}}/assets/images/page-banner/shape-4.png" alt="image">
+        </div>
+    </div>
+    <section class="services-details-area py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 p-2">
+                    <div class=" nav row  justify-content-between nav-pills " role="tablist"
+                        aria-orientation="vertical">
+                        <button class="nav-link col-6  col-md-12 mb-md-2  active" id="info-tab" data-bs-toggle="pill"
+                            data-bs-target="#info" type="button" role="tab" aria-controls="info" aria-selected="true">
+                            تفاصيل الخدمة </button>
+                        <button class="nav-link col-6  col-md-12 mb-md-2" id="portfolio-tab" data-bs-toggle="pill"
+                            data-bs-target="#portfolio" type="button" role="tab" aria-controls="portfolio"
+                            aria-selected="false"> اعمالنا </button>
+                    </div>
+                    <div class="services-details-information d-none d-md-block">
+                        <div class="services-contact-info">
+                            <h3 class="mb-5"> ابدأ موقعك الان ونفذ فكرتك معنا </h3>
+                            <a href="contact.html" class="default-btn wow fadeInDown" data-wow-delay="200ms"
+                                data-wow-duration="1000ms"> اطلب الخدمة <i class="fas fa-headset"></i> <span></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-9 p-2">
+                    <div class="tab-content">
+                        <!-- tab -->
+                        <div class="tab-pane fade show active" id="info" role="tabpanel" aria-labelledby="info-tab">
+                            <div class="services-details-overview-content ">
+                                <div class="overview-image mt-0 mb-5">
+                                    <img src="{{asset('romoz_design')}}/assets/images/services-details/design.png" alt="image">
+                                    <div class="shape-1" data-speed="0.08" data-revert="true">
+                                        <img src="{{asset('romoz_design')}}/assets/images/services-details/shape-1.png" alt="image">
+                                    </div>
+                                    <div class="shape-2" data-speed="0.08" data-revert="true">
+                                        <img src="{{asset('romoz_design')}}/assets/images/services-details/shape-2.png" alt="image">
+                                    </div>
+                                    <div class="shape-3" data-speed="0.08" data-revert="true">
+                                        <img src="{{asset('romoz_design')}}/assets/images/services-details/shape-3.png" alt="image">
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <h3> التصميم </h3>
+                                    <p> نقدم لكم خدمة تصميم المواقع بتصميم جذاب وحديث متوافق مع معايير تجربة المستخدم ،
+                                        تصميم موقع له تأثير كبير على نجاح الشركة أو المؤسسة التي تسعى إلى إنشاء موقع
+                                        يعطي
+                                        معلومات عن المؤسسة وأهدافها وتعريف الخدمات
+                                        لذلك نساعدك في تصميم موقع بأحدث التقنيات التي تسهل وصول علامتك التجارية بطريقة
+                                        بسيطة
+                                        وواضحة لتكون نافذتك على العالم </p>
+                                    <ul class="overview-list">
+                                        <li><i class="ri-check-line"></i> تصميم موقع شركة </li>
+                                        <li><i class="ri-check-line"></i> تصميم موقع تدريب </li>
+                                        <li><i class="ri-check-line"></i> تصميم موقع سياحي </li>
+                                        <li><i class="ri-check-line"></i> تصميم موقع تعريفي </li>
+                                        <li><i class="ri-check-line"></i> تصميم متجر إلكتروني </li>
+                                        <li><i class="ri-check-line"></i> تصميم موقع شخصي او مدونة شخصية </li>
+                                        <li><i class="ri-check-line"></i> تصميم موقع إخباري </li>
+                                        <li><i class="ri-check-line"></i> تصميم موقع رياضي </li>
+                                        <li><i class="ri-check-line"></i> تصميم موقع سيارات </li>
+                                        <li><i class="ri-check-line"></i> تصميم موقع عقاري </li>
+                                        <li><i class="ri-check-line"></i> تصميم موقع طبي </li>
+                                        <li><i class="ri-check-line"></i> تصميم موقع مدرسة </li>
+                                        <li><i class="ri-check-line"></i> تصميم موقع مطعم </li>
+                                    </ul>
+                                </div>
+                                <div class="details">
+                                    <h3> خدمات الجرافيك </h3>
+                                    <p>تتولى الشركة جميع المشاريع المتعلقة بالرسومات ، مثل تصميمات الهوية وتصميمات
+                                        رسومات الصفحات العادية
+
+                                        لمناقشة أو توصيل فكرة معينة وأي تصميم رسومي متعلق بالمواقع والتطبيقات والمنتديات
+                                    </p>
+                                    <ul class="overview-list">
+                                        <li><i class="ri-check-line"></i>
+                                            <h6> تصميم الهويات التجارية و الشعارات </h6>
+                                            <p> رموز هي شركة مُختصة بكل ما هو متعلق بالبرمجة وتصاميم الجرافيكس
+                                                وتمتلك فريقاّ ماهر ليقوم بتأدية كل مشاريعها علي أكمل وجه، وتلك بعض من
+                                                خدماتها هي تعبير بشكل مباشر أو غير مباشر عن خدمات شركتك وتعريف المهتمين
+                                                بنفس مجالك بشركتك ورسالتها وأهدافها ورؤيتها وتعتبر عامل قوي للغاية في
+                                                إيصال المميزات التي تقدمها لعملائك ولها تأثير إيجابي في الوصول لشرائح
+                                                جديدة وجذب متابعين جدد لشركتك أو مشروع </p>
+                                        </li>
+                                        <li><i class="ri-check-line"></i>
+                                            <h6> تصميم بنرات إعلانية وإنفوجرافيك </h6>
+                                            <p> نقوم بتقديم خدمة تصميم البنرات والإنفوجرافيك والبوستات الإعلانية بكافة
+                                                أشكالها وأنواعها لاستخدامها في المواقع الإلكترونية ومواقع التواصل
+                                                الاجتماعي وبأيدي مختصون وخبراء بتصميم البنرات والإنفوجرافيك وفق أعلى
+                                                المواصفات والمقاييس العالمية وبإتقان وأفكار ذات جاذبية تصنع من البنر او
+                                                الانفوجرافيك لوحة فنية إعلانية جاذبة للمتلقي تدفعه للضغط على البنر
+                                                الإعلاني او النظر لتفاصيل البنر لمعرفة ما وراء الإعلان </p>
+                                        </li>
+                                        <li><i class="ri-check-line"></i>
+                                            <h6> تصميم مطبوعات الشركات                                            </h6>
+                                            <p> نقدم خدمات تصميم المطبوعات (بروشور - يفط - كروت - لوحات إعلانية - وكل مايخص المطبوعات) وذلك بتقنيات عالية من قبل مصممين محترفون في هذا المجال بمختلف الأحجام و التصاميم، نراعي في ذلك الدقة و الجودة، ولمعرفتنا بطريقة عمل آلات الطباعة في المطابع فإننا نستطيع تقديم الأعمال بصيغ متوافقة تماما مع آلات الطباعة وبأحجام دقيقة توافق الشكل الطبيعى                                            </p>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- tab -->
+                        <div class="tab-pane fade" id="portfolio" role="tabpanel" aria-labelledby="portfolio-tab">
+                            <!-- projects -->
+                            <div class="cases-area">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6">
+                                        <div class="single-cases">
+                                            <div class="cases-image">
+                                                <a href="portfolio-details.html">
+                                                    <img src="{{asset('romoz_design')}}/assets/images/cases-study/1.jpg">
+                                                </a>
+                                            </div>
+                                            <div class="cases-content">
+                                                <a href="#!" class="tag-1"> اندرويد </a>
+                                                <a href="#!" class="tag-2"> ايفون </a>
+                                                <h3>
+                                                    <a href="portfolio-details.html"> Equipment Experts | خبراء المعدات
+                                                    </a>
+                                                </h3>
+                                                <p>حققت شركة “ رموز ” لبرمجة وتصميم التطبيقات نجاحا مبهرا في السعودية،
+                                                    حيث أن
+                                                    تطبيق ذوق يضم
+                                                    ثلاثة مستخدمين (تطبيقات)، هما (العميل-الأسرة المنتجة-المندوب) فكرة
+                                                    هذا
+                                                    التطبيق مختلفة
+                                                    وجديدة، حيث أنه يضم 1000 أسرة منتجة تطهي الطعام في المنزل ويتم بيع
+                                                    الطعام من
+                                                    خلال
+                                                    التطبيق.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6">
+                                        <div class="single-cases">
+                                            <div class="cases-image">
+                                                <a href="portfolio-details.html">
+                                                    <img src="{{asset('romoz_design')}}/assets/images/cases-study/2.jpg">
+                                                </a>
+                                            </div>
+                                            <div class="cases-content">
+                                                <a href="#!" class="tag-1"> اندرويد </a>
+                                                <a href="#!" class="tag-2"> ايفون </a>
+                                                <h3>
+                                                    <a href="portfolio-details.html"> ماوان </a>
+                                                </h3>
+                                                <p>حققت شركة “ رموز ” لبرمجة وتصميم التطبيقات نجاحا مبهرا في السعودية،
+                                                    حيث أن
+                                                    تطبيق ذوق يضم
+                                                    ثلاثة مستخدمين (تطبيقات)، هما (العميل-الأسرة المنتجة-المندوب) فكرة
+                                                    هذا
+                                                    التطبيق مختلفة
+                                                    وجديدة، حيث أنه يضم 1000 أسرة منتجة تطهي الطعام في المنزل ويتم بيع
+                                                    الطعام من
+                                                    خلال
+                                                    التطبيق.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6">
+                                        <div class="single-cases">
+                                            <div class="cases-image">
+                                                <a href="portfolio-details.html">
+                                                    <img src="{{asset('romoz_design')}}/assets/images/cases-study/3.jpg">
+                                                </a>
+                                            </div>
+                                            <div class="cases-content">
+                                                <a href="#!" class="tag-1"> اندرويد </a>
+                                                <a href="#!" class="tag-2"> ايفون </a>
+                                                <h3>
+                                                    <a href="portfolio-details.html"> DR CARE </a>
+                                                </h3>
+                                                <p>حققت شركة “ رموز ” لبرمجة وتصميم التطبيقات نجاحا مبهرا في السعودية،
+                                                    حيث أن
+                                                    تطبيق ذوق يضم
+                                                    ثلاثة مستخدمين (تطبيقات)، هما (العميل-الأسرة المنتجة-المندوب) فكرة
+                                                    هذا
+                                                    التطبيق مختلفة
+                                                    وجديدة، حيث أنه يضم 1000 أسرة منتجة تطهي الطعام في المنزل ويتم بيع
+                                                    الطعام من
+                                                    خلال
+                                                    التطبيق.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6">
+                                        <div class="single-cases">
+                                            <div class="cases-image">
+                                                <a href="portfolio-details.html">
+                                                    <img src="{{asset('romoz_design')}}/assets/images/cases-study/4.jpg">
+                                                </a>
+                                            </div>
+                                            <div class="cases-content">
+                                                <a href="#!" class="tag-1"> اندرويد </a>
+                                                <a href="#!" class="tag-2"> ايفون </a>
+                                                <h3>
+                                                    <a href="portfolio-details.html"> Daystar Market </a>
+                                                </h3>
+                                                <p>حققت شركة “ رموز ” لبرمجة وتصميم التطبيقات نجاحا مبهرا في السعودية،
+                                                    حيث أن
+                                                    تطبيق ذوق يضم
+                                                    ثلاثة مستخدمين (تطبيقات)، هما (العميل-الأسرة المنتجة-المندوب) فكرة
+                                                    هذا
+                                                    التطبيق مختلفة
+                                                    وجديدة، حيث أنه يضم 1000 أسرة منتجة تطهي الطعام في المنزل ويتم بيع
+                                                    الطعام من
+                                                    خلال
+                                                    التطبيق.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6">
+                                        <div class="single-cases">
+                                            <div class="cases-image">
+                                                <a href="portfolio-details.html">
+                                                    <img src="{{asset('romoz_design')}}/assets/images/cases-study/5.jpg">
+                                                </a>
+                                            </div>
+                                            <div class="cases-content">
+                                                <a href="#!" class="tag-1"> اندرويد </a>
+                                                <a href="#!" class="tag-2"> ايفون </a>
+                                                <h3>
+                                                    <a href="portfolio-details.html"> أبوسريع </a>
+                                                </h3>
+                                                <p>حققت شركة “ رموز ” لبرمجة وتصميم التطبيقات نجاحا مبهرا في السعودية،
+                                                    حيث أن
+                                                    تطبيق ذوق يضم
+                                                    ثلاثة مستخدمين (تطبيقات)، هما (العميل-الأسرة المنتجة-المندوب) فكرة
+                                                    هذا
+                                                    التطبيق مختلفة
+                                                    وجديدة، حيث أنه يضم 1000 أسرة منتجة تطهي الطعام في المنزل ويتم بيع
+                                                    الطعام من
+                                                    خلال
+                                                    التطبيق.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6">
+                                        <div class="single-cases">
+                                            <div class="cases-image">
+                                                <a href="portfolio-details.html">
+                                                    <img src="{{asset('romoz_design')}}/assets/images/cases-study/6.jpg">
+                                                </a>
+                                            </div>
+                                            <div class="cases-content">
+                                                <a href="#!" class="tag-1"> اندرويد </a>
+                                                <a href="#!" class="tag-2"> ايفون </a>
+                                                <h3>
+                                                    <a href="portfolio-details.html"> Reservation </a>
+                                                </h3>
+                                                <p>حققت شركة “ رموز ” لبرمجة وتصميم التطبيقات نجاحا مبهرا في السعودية،
+                                                    حيث أن
+                                                    تطبيق ذوق يضم
+                                                    ثلاثة مستخدمين (تطبيقات)، هما (العميل-الأسرة المنتجة-المندوب) فكرة
+                                                    هذا
+                                                    التطبيق مختلفة
+                                                    وجديدة، حيث أنه يضم 1000 أسرة منتجة تطهي الطعام في المنزل ويتم بيع
+                                                    الطعام من
+                                                    خلال
+                                                    التطبيق.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12">
+                                        <div class="pagination-area">
+                                            <a href="#" class="prev page-numbers"><i
+                                                    class="ri-arrow-right-line"></i></a>
+                                            <span class="page-numbers current" aria-current="page">1</span>
+                                            <a href="#" class="page-numbers">2</a>
+                                            <a href="#" class="page-numbers">3</a>
+                                            <a href="#" class="page-numbers">4</a>
+                                            <a href="#" class="next page-numbers"><i class="ri-arrow-left-line"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cases-shape-1" data-speed="0.04" data-revert="true">
+                                    <img src="{{asset('romoz_design')}}/assets/images/cases-study/shape-1.png">
+                                </div>
+                                <div class="cases-shape-2" data-speed="0.04" data-revert="true">
+                                    <img src="{{asset('romoz_design')}}/assets/images/cases-study/shape-2.png">
+                                </div>
+                                <div class="cases-shape-3" data-speed="0.04" data-revert="true">
+                                    <img src="{{asset('romoz_design')}}/assets/images/cases-study/shape-3.png">
+                                </div>
+                                <div class="cases-shape-4" data-speed="0.04" data-revert="true">
+                                    <img src="{{asset('romoz_design')}}/assets/images/cases-study/shape-4.png">
+                                </div>
+                                <div class="cases-shape-5" data-speed="0.04" data-revert="true">
+                                    <img src="{{asset('romoz_design')}}/assets/images/cases-study/shape-5.png">
+                                </div>
+                                <div class="cases-shape-6" data-speed="0.04" data-revert="true">
+                                    <img src="{{asset('romoz_design')}}/assets/images/cases-study/shape-4.png">
+                                </div>
+                                <div class="cases-shape-7" data-speed="0.04" data-revert="true">
+                                    <img src="{{asset('romoz_design')}}/assets/images/cases-study/shape-5.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="services-details-information  d-md-none">
+                        <div class="services-contact-info">
+                            <h3 class="mb-5"> ابدأ موقعك الان ونفذ فكرتك معنا </h3>
+                            <a href="contact.html" class="default-btn wow fadeInDown" data-wow-delay="200ms"
+                                data-wow-duration="1000ms"> اطلب الخدمة <i class="fas fa-headset"></i> <span></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+@endsection

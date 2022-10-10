@@ -1,0 +1,17 @@
+<script src="{{asset('romoz_design')}}/assets/js/jquery.min.js"></script>
+<script src="{{asset('romoz_design')}}/assets/js/bootstrap.bundle.min.js"></script>
+<script src="{{asset('romoz_design')}}/assets/js/jquery.meanmenu.js"></script>
+<script src="{{asset('romoz_design')}}/assets/js/owl.carousel.min.js"></script>
+<script src="{{asset('romoz_design')}}/assets/js/jquery.appear.js"></script>
+<script src="{{asset('romoz_design')}}/assets/js/odometer.min.js"></script>
+<script src="{{asset('romoz_design')}}/assets/js/nice-select.min.js"></script>
+<script src="{{asset('romoz_design')}}/assets/js/jquery.magnific-popup.min.js"></script>
+<script src="{{asset('romoz_design')}}/assets/js/fancybox.min.js"></script>
+<script src="{{asset('romoz_design')}}/assets/js/TweenMax.min.js"></script>
+<script src="{{asset('romoz_design')}}/assets/js/scrollbar.min.js"></script>
+<script src="{{asset('romoz_design')}}/assets/js/horizontal-scrollbar.min.js"></script>
+<script src="{{asset('romoz_design')}}/assets/js/jquery.ajaxchimp.min.js"></script>
+<script src="{{asset('romoz_design')}}/assets/js/form-validator.min.js"></script>
+<script src="{{asset('romoz_design')}}/assets/js/contact-form-script.js"></script>
+<script src="{{asset('romoz_design')}}/assets/js/wow.min.js"></script>
+<script src="{{asset('romoz_design')}}/assets/js/main.js"></script>
