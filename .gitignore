@@ -13,10 +13,5 @@ yarn-error.log
 /.vscode
 
 *.rar
-storage/framework/cache/*
-storage/framework/sessions/*
-storage/framework/views/*
-storage/logs/*
-storage/app/public/*
 /public/storage
 /storage/*.key
