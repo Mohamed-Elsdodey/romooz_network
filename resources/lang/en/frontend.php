@@ -379,6 +379,9 @@ The project itself"=>"To guarantee the right of the marketer, romoz Company make
     "all rights are save"=>"all rights are save",
     "Copyrights"=>"Copyrights",
     "NAMI"=>"NAMI",
+    "Web site name"=>"offer name",
+    "website price"=>" price",
+
 
 
 

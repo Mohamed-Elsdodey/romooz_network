@@ -33,82 +33,23 @@
                 <table class="table table-striped">
                     <thead>
                         <tr>
-                            <th></th>
                             <th>
-                                <span class="desc-1"> {{trans('frontend.rival')}} <span> 10 % </span> </span>
-                                <span class="desc-2">{{trans('frontend.Silver Package')}} </span>
+                                <span class="desc-1"> {{trans('frontend.Web site name')}}  </span>
                             </th>
                             <th>
-                                <span class="desc-1"> {{trans('frontend.rival')}} <span> 15 % </span> </span>
-                                <span class="desc-2">{{trans('frontend.Golden Package')}} </span>
+                                <span class="desc-1"> {{trans('frontend.website price')}}  </span>
                             </th>
-                            <th>
-                                <span class="desc-1"> {{trans('frontend.rival')}} <span> 20 % </span> </span>
-                                <span class="desc-2">{{trans('frontend.Diamond Package')}} </span>
-                            </th>
+
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td> {{trans('frontend.number of features')}} </td>
-                            <td>4</td>
-                            <td>7</td>
-                            <td>10</td>
+                            @foreach(\App\Models\Offer::get() as $offer)
+                            <td style="text-align: center">{{$offer->title}}</td>
+                            <td>{{$offer->price}}</td>
+                            @endforeach
                         </tr>
-                        <tr>
-                            <td><a href="#">{{trans('frontend.Project Analysis')}}</a></td>
-                            <td class="item-check"><i class='ri-check-line'></i></td>
-                            <td class="item-check"><i class='ri-check-line'></i></td>
-                            <td class="item-check"><i class='ri-check-line'></i></td>
-                        </tr>
-                        <tr>
-                            <td><a href="#"> {{trans('frontend.Website design')}} </a></td>
-                            <td class="item-check"><i class='ri-check-line'></i></td>
-                            <td class="item-check"><i class='ri-check-line'></i></td>
-                            <td class="item-check"><i class='ri-check-line'></i></td>
-                        </tr>
-                        <tr>
-                            <td><a href="#"> {{trans('frontend.Website development')}} </a></td>
-                            <td class="item-check"><i class='ri-check-line'></i></td>
-                            <td class="item-check"><i class='ri-check-line'></i></td>
-                            <td class="item-check"><i class='ri-check-line'></i></td>
-                        </tr>
-                        <tr>
-                            <td><a href="#">{{trans('frontend.Android app design')}}</a></td>
-                            <td class="item-none"><i class='ri-close-line'></i></td>
-                            <td class="item-check"><i class='ri-check-line'></i></td>
-                            <td class="item-check"><i class='ri-check-line'></i></td>
-                        </tr>
-                        <tr>
-                            <td><a href="#">{{trans('frontend.Android app development')}}</a></td>
-                            <td class="item-none"><i class='ri-close-line'></i></td>
-                            <td class="item-check"><i class='ri-check-line'></i></td>
-                            <td class="item-check"><i class='ri-check-line'></i></td>
-                        </tr>
-                        <tr>
-                            <td><a href="#">{{trans('frontend.iPhone app design')}}</a></td>
-                            <td class="item-none"><i class='ri-close-line'></i></td>
-                            <td class="item-none"><i class='ri-close-line'></i></td>
-                            <td class="item-check"><i class='ri-check-line'></i></td>
-                        </tr>
-                        <tr>
-                            <td><a href="#">{{trans('frontend.iPhone app development')}}</a></td>
-                            <td class="item-none"><i class='ri-close-line'></i></td>
-                            <td class="item-none"><i class='ri-close-line'></i></td>
-                            <td class="item-check"><i class='ri-check-line'></i></td>
-                        </tr>
-                        <tr>
-                            <td><a href="#"> SEO </a></td>
-                            <td class="item-check"><i class='ri-check-line'></i></td>
-                            <td class="item-check"><i class='ri-check-line'></i></td>
-                            <td class="item-check"><i class='ri-check-line'></i></td>
-                        </tr>
-                        <tr>
-                            <td><a href="#">{{trans('frontend.hosting service')}} </a></td>
-                            <td class="item-none"><i class='ri-close-line'></i></td>
-                            <td class="item-none"><i class='ri-close-line'></i></td>
-                            <td class="item-check"><i class='ri-check-line'></i></td>
-                        </tr>
+
 
                     </tbody>
                 </table>

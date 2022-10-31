@@ -372,6 +372,8 @@ The project itself"=>"لضمان حق المسوق ، تقوم شركة نامى
     "all rights are save"=>"جميع الحقوق محفوظة",
     "Copyrights"=>"حقوق النشر",
     "NAMI"=>"NAMI",
+    "Web site name"=>"اسم العرض",
+    "website price"=>" التكلفة",
 
 
 
