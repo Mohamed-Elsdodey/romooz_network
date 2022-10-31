@@ -123,6 +123,17 @@
 
 
                 <li>
+                    <a href="{{route('offers.index')}}" class="waves-effect">
+                        <i class="fa fa-step-forward" aria-hidden="true"></i>
+                        <span class="badge rounded-pill bg-info float-end"></span>
+                        <span key="t-dashboards"> العروض </span>
+                    </a>
+                </li>
+
+
+
+
+                <li>
                     <a href="{{route('types.index')}}" class="waves-effect">
                         <i class="fa fa-globe" aria-hidden="true"></i>
                         <span class="badge rounded-pill bg-info float-end"></span>

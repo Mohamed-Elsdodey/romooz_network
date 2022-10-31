@@ -121,6 +121,17 @@ Route::group(['prefix' => 'admin'], function () {
                 ->name('types.delete.bulk');
 
 
+            #offers
+
+            Route::resource('offers', 'AdminOfferController');
+
+
+            Route::delete('offers/delete/bulk', 'AdminOfferController@delete_all')
+                ->name('offers.delete.bulk');
+
+
+
+
 
 
 
