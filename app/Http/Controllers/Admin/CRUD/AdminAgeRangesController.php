@@ -17,6 +17,10 @@ class AdminAgeRangesController extends Controller
     use Upload_Files;
 
 
+
+
+
+
     public function __construct()
     {
 
